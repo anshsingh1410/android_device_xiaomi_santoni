@@ -19,9 +19,9 @@
 set -e
 
 export DEVICE=santoni
-export DEVICE_COMMON=msm8937-common
+
 export VENDOR=xiaomi
 
-export DEVICE_BRINGUP_YEAR=2017
+export DEVICE_BRINGUP_YEAR=2018
 
 ./../../$VENDOR/$DEVICE_COMMON/setup-makefiles.sh $@
